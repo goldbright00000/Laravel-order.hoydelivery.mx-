@@ -175,12 +175,12 @@
                }
         });
     
-         $('#clearFilterAndState').click(function(event) {
-            if (datatable) {
-                datatable.state.clear();
-                window.location.reload();
-            }
-         });
+        //  $('#clearFilterAndState').click(function(event) {
+        //     if (datatable) {
+        //         datatable.state.clear();
+        //         window.location.reload();
+        //     }
+        //  });
     });
 </script>
 @endsection
